@@ -72,7 +72,7 @@ async def return_search(query, page=1, sukebei=False):
 message_info = dict()
 ignore = set()
 
-@app.on_message(filters.command(['nyaasi']))
+@app.on_message(filters.command(['nyaasi2']))
 async def nyaa_search(client, message):
     text = message.text.split(' ')
     text.pop(0)
